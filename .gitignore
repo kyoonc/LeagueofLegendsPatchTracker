@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Scraper scratch output -- fully consumed into patches.db, not needed
+# to run the deployed app. Keep this locally if you want to re-run the
+# pipeline later, just don't push it.
+patch_notes_raw/
+
+# Environment files (if you ever add local secrets/config)
+.env
+.env.local
+
+# OS cruft
+.DS_Store
