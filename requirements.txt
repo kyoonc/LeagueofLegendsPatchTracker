@@ -2,3 +2,4 @@ fastapi
 uvicorn
 requests
 slowapi
+beautifulsoup4

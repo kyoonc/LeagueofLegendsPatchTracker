@@ -37,9 +37,21 @@ HEADERS = {
 
 REQUEST_DELAY = 1.5  # seconds between requests -- slow and polite beats fast and banned
 
-# How many patches have released so far in the 2026 season. Update this
-# number as new patches come out (currently 26.16, released 2026-08-11).
+# How many patches have released so far in the 2026 season, as of when
+# this was last touched by hand. You should no longer need to bump this
+# yourself within a season -- see PROBE_AHEAD below -- only when Riot
+# starts an entirely new numbering era (e.g. season 27), which isn't
+# something we can predict or automate given how irregular past season
+# transitions have been (see generate_patch_ids for the full history).
 PATCH_26_COUNT = 16
+
+# The scraper also probes this many patch numbers beyond PATCH_26_COUNT
+# on every run. This is what makes it self-updating within a season:
+# once a new patch (e.g. 26.17) actually exists, the probe finds and
+# downloads it automatically. Probes for patches that don't exist yet
+# just come back "missing", which is harmless -- a few wasted requests,
+# nothing more.
+PROBE_AHEAD = 6
 
 # Known cases where a patch's real URL doesn't match its sequential
 # position -- usually because a hotfix got promoted to its own full
@@ -82,6 +94,7 @@ def generate_patch_ids() -> list[str]:
     ids += [f"25.{m:02d}" for m in range(4, 25)]  # ...zero-padded 25.04-25.24
 
     ids += [f"26.{m}" for m in range(1, PATCH_26_COUNT + 1)]  # Season 2026: 26.1-current
+    ids += [f"26.{m}" for m in range(PATCH_26_COUNT + 1, PATCH_26_COUNT + 1 + PROBE_AHEAD)]  # probe for new patches
 
     return ids
 
