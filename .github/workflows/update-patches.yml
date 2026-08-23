@@ -16,6 +16,11 @@ on:
     - cron: "0 16 * * 3"
   workflow_dispatch:
 
+# GitHub's automatic token is read-only by default -- without this, the
+# final "commit and push" step fails with a permission error (exit 128).
+permissions:
+  contents: write
+
 jobs:
   update:
     runs-on: ubuntu-latest
