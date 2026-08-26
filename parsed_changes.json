@@ -56216,6 +56216,267 @@
     "change_type": "value_change"
   },
   {
+    "champion": "Aurelion Sol",
+    "ability": "Base Stats",
+    "patch": "26.17",
+    "stat": "Mana Cost Per Second",
+    "old_value": "35 / 40 / 45 / 50 / 55",
+    "new_value": "30 / 35 / 40 / 45 / 50",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Aurelion Sol",
+    "ability": "W - Astral Flight",
+    "patch": "26.17",
+    "stat": "Cooldown",
+    "old_value": "22 / 20.5 / 19 / 17.5 / 16s",
+    "new_value": "22 / 20 / 18 / 16 / 14s",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Cho'Gath",
+    "ability": "E - Vorpal Spikes",
+    "patch": "26.17",
+    "stat": "Base Damage (x3 attacks)",
+    "old_value": "20 / 40 / 60 / 80 / 100 (+30% AP) (+2.5% - 3.9% (+.5% Per Feast) Target Max HP)",
+    "new_value": "30 / 50 / 70 / 90 / 110 (+30% AP) (+2.5% - 3.9% (+.5% Per Feast) Target Max HP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Graves",
+    "ability": "Base Stats",
+    "patch": "26.17",
+    "stat": "Initial Damage",
+    "old_value": "50 / 75 / 100 / 125 / 150 (+65% bonus AD)",
+    "new_value": "50 / 75 / 100 / 125 / 150 (+55% bonus AD)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Graves",
+    "ability": "Base Stats",
+    "patch": "26.17",
+    "stat": "Return Damage",
+    "old_value": "80 / 125 / 170 / 215 / 260 (+55 / 70 / 85 / 100 / 115% bonus AD)",
+    "new_value": "80 / 125 / 170 / 215 / 260 (+45 / 60 / 75 / 90 / 105% bonus AD)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Irelia",
+    "ability": "Q - Bladesurge",
+    "patch": "26.17",
+    "stat": "Damage",
+    "old_value": "5 / 25 / 45 / 65 / 85 (+70% AD)",
+    "new_value": "5 / 25 / 45 / 65 / 85 (+80% AD)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Irelia",
+    "ability": "W - Defiant Dance",
+    "patch": "26.17",
+    "stat": "Damage Reduction Ability Power Ratio",
+    "old_value": "7% per 100 AP (Halved for Magic Damage) (reduced to 75% value for Magic Damage in Arena)",
+    "new_value": "8% per 100 AP (Halved for Magic Damage) (reduced to 75% value for Magic Damage in Arena)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Irelia",
+    "ability": "R - Vanguard's Edge",
+    "patch": "26.17",
+    "stat": "Ability Power Ratio",
+    "old_value": "70%",
+    "new_value": "100%(It is already 100% in Arena, so this is standardizing the value)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "LeBlanc",
+    "ability": "Base Stats",
+    "patch": "26.17",
+    "stat": "Attack Speed Ratio",
+    "old_value": "0.4",
+    "new_value": "0.625",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "LeBlanc",
+    "ability": "Base Stats",
+    "patch": "26.17",
+    "stat": "Attack Speed Growth",
+    "old_value": "2.35%",
+    "new_value": "1.5%",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "LeBlanc",
+    "ability": "W - Distortion",
+    "patch": "26.17",
+    "stat": "Damage",
+    "old_value": "75 / 115 / 155 / 195 / 235 (+80% AP)",
+    "new_value": "75 / 115 / 155 / 195 / 235 (+90% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "LeBlanc",
+    "ability": "RW - Mimic: Distortion",
+    "patch": "26.17",
+    "stat": "Damage",
+    "old_value": "150 / 315 / 480 (+80% AP)",
+    "new_value": "150 / 315 / 480 (+90% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Nasus",
+    "ability": "Passive - Soul Eater",
+    "patch": "26.17",
+    "stat": "Life Steal",
+    "old_value": "12 / 18 / 24%",
+    "new_value": "10 / 15 / 20%",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Nocturne",
+    "ability": "Base Stats",
+    "patch": "26.17",
+    "stat": "Armor",
+    "old_value": "38",
+    "new_value": "36",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Nocturne",
+    "ability": "Base Stats",
+    "patch": "26.17",
+    "stat": "Health",
+    "old_value": "655",
+    "new_value": "640",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Qiyana",
+    "ability": "Q - Elemental Wrath",
+    "patch": "26.17",
+    "stat": "Damage",
+    "old_value": "70 / 100 / 130 / 160 / 190 (+85% bonus AD)",
+    "new_value": "80 / 110 / 140 / 170 / 200 (+90% bonus AD)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Qiyana",
+    "ability": "Q - Elemental Wrath",
+    "patch": "26.17",
+    "stat": "Monster Damage Modifier",
+    "old_value": "175% against Monsters",
+    "new_value": "160% against Monsters",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Thresh",
+    "ability": "E - Flay",
+    "patch": "26.17",
+    "stat": "Active Damage",
+    "old_value": "75 / 120 / 165 / 210 / 255 (+70% AP)",
+    "new_value": "65 / 110 / 155 / 200 / 245 (+60% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Trundle",
+    "ability": "W - Frozen Domain",
+    "patch": "26.17",
+    "stat": "Attack Speed",
+    "old_value": "30 / 45 / 60 / 75 / 90%",
+    "new_value": "30 / 50 / 70 / 90 / 110%",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Vayne",
+    "ability": "Base Stats",
+    "patch": "26.17",
+    "stat": "Health",
+    "old_value": "550 + 103/Level",
+    "new_value": "580 + 98/Level",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Vayne",
+    "ability": "Base Stats",
+    "patch": "26.17",
+    "stat": "Health Regeneration",
+    "old_value": "3.5 + .55/Level",
+    "new_value": "4 + .5/Level",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Vayne",
+    "ability": "Base Stats",
+    "patch": "26.17",
+    "stat": "Attack Speed Ratio",
+    "old_value": ".658 + 3.3%/Level",
+    "new_value": ".67 + 2.8%/Level",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Vayne",
+    "ability": "Q - Tumble",
+    "patch": "26.17",
+    "stat": "Mana Cost",
+    "old_value": "30",
+    "new_value": "46 / 42 / 38 / 34 / 30",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Vayne",
+    "ability": "W - Silver Bolts",
+    "patch": "26.17",
+    "stat": "True Damage",
+    "old_value": "6 / 7 / 8 / 9 / 10% Target Max HP",
+    "new_value": "4 / 5.5 / 7 / 8.5 / 10% Target Max HP",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Vayne",
+    "ability": "W - Silver Bolts",
+    "patch": "26.17",
+    "stat": "Minimum Damage",
+    "old_value": "50 / 65 / 80 / 95 / 110",
+    "new_value": "40 / 55 / 70 / 85 / 100",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Xerath",
+    "ability": "Base Stats",
+    "patch": "26.17",
+    "stat": "Health",
+    "old_value": "596",
+    "new_value": "575",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Xerath",
+    "ability": "Q - Arcanopulse",
+    "patch": "26.17",
+    "stat": "Damage",
+    "old_value": "75 / 115 / 155 / 195 / 235 (+90% AP)",
+    "new_value": "70 / 110 / 150 / 190 / 230 (+90% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Yasuo",
+    "ability": "Passive - Way of the Wanderer",
+    "patch": "26.17",
+    "stat": "Critical Strike Damage Reduction",
+    "old_value": "-10%",
+    "new_value": "-5%",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Yone",
+    "ability": "Passive - Way of the Hunter",
+    "patch": "26.17",
+    "stat": "Critical Strike Damage Reduction",
+    "old_value": "-10%",
+    "new_value": "-5%",
+    "change_type": "value_change"
+  },
+  {
     "champion": "Aatrox",
     "ability": "Passive - Deathbringer Stance",
     "patch": "26.2",
