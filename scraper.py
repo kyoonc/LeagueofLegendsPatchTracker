@@ -11,14 +11,22 @@ patches along the way (skipped patch 13.2, the 2025 season's "S1.1"
 style IDs before it switched to zero-padded months, etc.) without
 tripping over them.
 
-NOTE: the PATCH_26_COUNT constant below will need bumping every couple
-of weeks as new 26.x patches release. Everything else here is fixed
-history and won't change.
+NOTE: earlier versions of this script relied on a hardcoded patch count
+that had to be bumped by hand periodically -- that was a real limitation
+disguised as "self-updating." It's since been fixed to look at
+patches.db (if present -- it will be, in the automated CI run, since
+that file is committed back to the repo each time) and derive the
+current highest known patch from there instead, so the probe window
+genuinely slides forward on its own indefinitely. The only thing that
+will ever need a human's attention is a brand new season with a new
+numbering scheme (see generate_patch_ids for why that can't be
+automated).
 
 Requires: pip install requests
 """
 
 import json
+import sqlite3
 import time
 from pathlib import Path
 
@@ -37,20 +45,16 @@ HEADERS = {
 
 REQUEST_DELAY = 1.5  # seconds between requests -- slow and polite beats fast and banned
 
-# How many patches have released so far in the 2026 season, as of when
-# this was last touched by hand. You should no longer need to bump this
-# yourself within a season -- see PROBE_AHEAD below -- only when Riot
-# starts an entirely new numbering era (e.g. season 27), which isn't
-# something we can predict or automate given how irregular past season
-# transitions have been (see generate_patch_ids for the full history).
-PATCH_26_COUNT = 16
+# Fallback only -- used if patches.db doesn't exist yet (e.g. the very
+# first time this ever runs). Once patches.db exists, the real current
+# count is read from it instead (see get_current_26_count).
+FALLBACK_PATCH_26_COUNT = 16
 
-# The scraper also probes this many patch numbers beyond PATCH_26_COUNT
-# on every run. This is what makes it self-updating within a season:
-# once a new patch (e.g. 26.17) actually exists, the probe finds and
-# downloads it automatically. Probes for patches that don't exist yet
-# just come back "missing", which is harmless -- a few wasted requests,
-# nothing more.
+# The scraper also probes this many patch numbers beyond the current
+# known count on every run. This is what makes it self-updating: once a
+# new patch (e.g. 26.18) actually exists, the probe finds and downloads
+# it automatically. Probes for patches that don't exist yet just come
+# back "missing", which is harmless -- a few wasted requests, nothing more.
 PROBE_AHEAD = 6
 
 # Known cases where a patch's real URL doesn't match its sequential
@@ -70,6 +74,34 @@ URL_SLUG_OVERRIDES = {
 
 
 # --- Building the list of every patch that exists -------------------------
+
+def get_current_26_count() -> int:
+    """
+    Look at patches.db (if it exists -- it will, in the automated CI run)
+    to find the highest 26.x patch we've already successfully scraped.
+    This is what lets the probe window slide forward on its own every
+    week instead of staying frozen at whatever it was hardcoded to.
+    """
+    db_path = Path("patches.db")
+    if not db_path.exists():
+        return FALLBACK_PATCH_26_COUNT
+
+    try:
+        conn = sqlite3.connect(db_path)
+        rows = conn.execute("SELECT DISTINCT patch FROM changes WHERE patch LIKE '26.%'").fetchall()
+        conn.close()
+    except sqlite3.Error:
+        return FALLBACK_PATCH_26_COUNT
+
+    numbers = []
+    for (patch,) in rows:
+        try:
+            numbers.append(int(patch.split(".")[1]))
+        except (IndexError, ValueError):
+            continue  # skip anything that doesn't parse as a plain "26.N"
+
+    return max(numbers, default=FALLBACK_PATCH_26_COUNT)
+
 
 def generate_patch_ids() -> list[str]:
     """
@@ -93,8 +125,9 @@ def generate_patch_ids() -> list[str]:
     ids += [f"25.S1.{n}" for n in range(1, 4)]  # Season 2025: S1.1-S1.3, then...
     ids += [f"25.{m:02d}" for m in range(4, 25)]  # ...zero-padded 25.04-25.24
 
-    ids += [f"26.{m}" for m in range(1, PATCH_26_COUNT + 1)]  # Season 2026: 26.1-current
-    ids += [f"26.{m}" for m in range(PATCH_26_COUNT + 1, PATCH_26_COUNT + 1 + PROBE_AHEAD)]  # probe for new patches
+    current_26_count = get_current_26_count()
+    ids += [f"26.{m}" for m in range(1, current_26_count + 1)]  # Season 2026: 26.1-current
+    ids += [f"26.{m}" for m in range(current_26_count + 1, current_26_count + 1 + PROBE_AHEAD)]  # probe ahead
 
     return ids
 
@@ -157,7 +190,7 @@ def save_patch_html(patch_id: str, html: str) -> None:
 def scrape_all() -> dict:
     """Walk the full patch-id list, downloading anything not already saved."""
     patch_ids = generate_patch_ids()
-    print(f"Built a list of {len(patch_ids)} patches to check (9.1 through 26.{PATCH_26_COUNT}).")
+    print(f"Built a list of {len(patch_ids)} patches to check.")
 
     results = {}
     for patch_id in patch_ids:
