@@ -8,7 +8,7 @@ now versus then, with every back-and-forth fluctuation collapsed away (but
 still visible if you want to see it).
 
 **Live site:** https://leagueof-legends-patch-tracker.vercel.app
-**API:** https://leagueoflegendspatchtracker.onrender.com
+**API:** https://leagueoflegendspatchtracker.onrender.com/docs
 
 ## What it does
 
