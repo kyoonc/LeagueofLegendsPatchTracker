@@ -7,8 +7,8 @@ and a patch range, and it shows the *net* change — what's actually different
 now versus then, with every back-and-forth fluctuation collapsed away (but
 still visible if you want to see it).
 
-**Live site:** _add your Vercel URL here once deployed_
-**API:** _add your Render URL here once deployed_
+**Live site:** https://leagueof-legends-patch-tracker.vercel.app
+**API:** https://leagueoflegendspatchtracker.onrender.com
 
 ## What it does
 
@@ -39,7 +39,7 @@ monolithic script would have.
 - **Backend:** Python, FastAPI, SQLite, BeautifulSoup
 - **Frontend:** React (Vite)
 - **Automation:** GitHub Actions (scheduled scrape + rebuild)
-- **Hosting:** Render (API), Vercel (frontend) — both free tier, no card required
+- **Hosting:** Render (API), Vercel (frontend) — both free tier, no card required. Render's free tier spins down after inactivity, so the first request after a quiet period can take 30-60 seconds to wake back up — a deliberate tradeoff for zero hosting cost, not a bug.
 
 ## Engineering challenges worth mentioning
 
