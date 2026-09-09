@@ -56477,6 +56477,265 @@
     "change_type": "value_change"
   },
   {
+    "champion": "Bard",
+    "ability": "Base Stats",
+    "patch": "26.18",
+    "stat": "Armor",
+    "old_value": "34 + 5/Level",
+    "new_value": "32 + 4.7/Level",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Cassiopeia",
+    "ability": "Passive - Serpentine Grace",
+    "patch": "26.18",
+    "stat": "Move Speed Bonus",
+    "old_value": "6% - 40% (based on level)",
+    "new_value": "5% - 36% (based on level)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Cassiopeia",
+    "ability": "Q - Noxious Blast",
+    "patch": "26.18",
+    "stat": "Damage",
+    "old_value": "75 / 110 / 145 / 180 / 215",
+    "new_value": "65 / 100 / 135 / 170 / 205",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Cassiopeia",
+    "ability": "Q - Noxious Blast",
+    "patch": "26.18",
+    "stat": "Ability Power Ratio",
+    "old_value": "65%",
+    "new_value": "75%",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Cassiopeia",
+    "ability": "E - Twin Fang",
+    "patch": "26.18",
+    "stat": "Mana Cost",
+    "old_value": "40",
+    "new_value": "45",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Cassiopeia",
+    "ability": "E - Twin Fang",
+    "patch": "26.18",
+    "stat": "Base Ability Power Ratio",
+    "old_value": "10%",
+    "new_value": "20%",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Cassiopeia",
+    "ability": "E - Twin Fang",
+    "patch": "26.18",
+    "stat": "Enhanced Ability Power Ratio",
+    "old_value": "55%",
+    "new_value": "45%",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Cassiopeia",
+    "ability": "E - Twin Fang",
+    "patch": "26.18",
+    "stat": "Total Ability Power Ratio",
+    "old_value": "65%",
+    "new_value": "65%",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Cassiopeia",
+    "ability": "E - Twin Fang",
+    "patch": "26.18",
+    "stat": "Damage",
+    "old_value": "52 - 120",
+    "new_value": "50 - 120",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Cassiopeia",
+    "ability": "R - Petrifying Gaze",
+    "patch": "26.18",
+    "stat": "Damage",
+    "old_value": "150 / 250 / 350",
+    "new_value": "125 / 225 / 325",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Cassiopeia",
+    "ability": "R - Petrifying Gaze",
+    "patch": "26.18",
+    "stat": "Ability Power Ratio",
+    "old_value": "50%",
+    "new_value": "75%",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Ekko",
+    "ability": "Q - Timewinder",
+    "patch": "26.18",
+    "stat": "Mana Cost",
+    "old_value": "50 / 60 / 70 / 80 / 90",
+    "new_value": "40 / 50 / 60 / 70 / 80",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Ekko",
+    "ability": "Q - Timewinder",
+    "patch": "26.18",
+    "stat": "Return Damage Ability Power Ratio",
+    "old_value": "60%",
+    "new_value": "70%",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Kassadin",
+    "ability": "Q - Null Sphere",
+    "patch": "26.18",
+    "stat": "Ability Power Ratio",
+    "old_value": "70% AP",
+    "new_value": "80% AP",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Kassadin",
+    "ability": "R - Riftwalk",
+    "patch": "26.18",
+    "stat": "Base Damage",
+    "old_value": "70 / 90 / 110",
+    "new_value": "80 / 95 / 110",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Master Yi",
+    "ability": "Base Stats",
+    "patch": "26.18",
+    "stat": "Armor Growth",
+    "old_value": "33 + 4.5/Level",
+    "new_value": "33 + 5/Level",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Master Yi",
+    "ability": "R - Highlander",
+    "patch": "26.18",
+    "stat": "Move Speed",
+    "old_value": "35 / 45 / 55%",
+    "new_value": "40 / 50 / 60%",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Nautilus",
+    "ability": "Base Stats",
+    "patch": "26.18",
+    "stat": "Attack Damage",
+    "old_value": "61 + 3.3/Level",
+    "new_value": "58 + 3.3/Level",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Nautilus",
+    "ability": "Q - Dredge Line",
+    "patch": "26.18",
+    "stat": "Damage",
+    "old_value": "85 / 130 / 175 / 220 / 265 (+90% AP)",
+    "new_value": "85 / 125 / 165 / 205 / 245 (+90% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Seraphine",
+    "ability": "E - Beat Drop",
+    "patch": "26.18",
+    "stat": "Cooldown",
+    "old_value": "11 / 10.5 / 10 / 9.5 / 9s",
+    "new_value": "11s",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Syndra",
+    "ability": "Passive - Transcendent",
+    "patch": "26.18",
+    "stat": "Splinter Mana",
+    "old_value": "20 - 255",
+    "new_value": "20 - 199",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Syndra",
+    "ability": "W - Force of Will",
+    "patch": "26.18",
+    "stat": "Cooldown",
+    "old_value": "12 / 11 / 10 / 9 / 8s",
+    "new_value": "13 / 12 / 11 / 10 / 9s",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Viego",
+    "ability": "Base Stats",
+    "patch": "26.18",
+    "stat": "Attack Damage Growth",
+    "old_value": "3.5",
+    "new_value": "4",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Viego",
+    "ability": "Passive - Sovereign's Domination",
+    "patch": "26.18",
+    "stat": "Heal",
+    "old_value": "2% (+\u2026. )",
+    "new_value": "2% (+ 2.5% per 100 bonus AD) (+ 2% per 100 AP) (+ 5% per 100% bonus attack speed) (+ 2% per 500 bonus HP) of the target's maximum health",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Zaahen",
+    "ability": "Q - The Darkin Glaive",
+    "patch": "26.18",
+    "effect_name": "Cooldown Behavior",
+    "description": "If Q is active, it is now placed on Cooldown immediately upon being put in Resurrection",
+    "change_type": "new_effect"
+  },
+  {
+    "champion": "Zaahen",
+    "ability": "Q - The Darkin Glaive",
+    "patch": "26.18",
+    "stat": "Q2 Damage",
+    "old_value": "25 / 50 / 75 / 100 / 125 (+20 / 25 / 30 / 35 / 40% bonus AD)",
+    "new_value": "30 / 60 / 90 / 120 / 150 (+20 / 25 / 30 / 35 / 40% bonus AD)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Zeri",
+    "ability": "W - Ultrashock Laser",
+    "patch": "26.18",
+    "stat": "Damage",
+    "old_value": "30 / 70 / 110 / 150 / 190 (+120% tAD)",
+    "new_value": "30 / 70 / 110 / 150 / 190 (+100% tAD)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Zeri",
+    "ability": "W - Ultrashock Laser",
+    "patch": "26.18",
+    "stat": "Wall Damage",
+    "old_value": "45 / 105 / 165 / 225 / 285 (+180% tAD)",
+    "new_value": "45 / 105 / 165 / 225 / 285 (+150% tAD)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Zeri",
+    "ability": "W - Ultrashock Laser",
+    "patch": "26.18",
+    "effect_name": "Critical Strike",
+    "description": "150% (+15% IE)",
+    "change_type": "note"
+  },
+  {
     "champion": "Aatrox",
     "ability": "Passive - Deathbringer Stance",
     "patch": "26.2",
