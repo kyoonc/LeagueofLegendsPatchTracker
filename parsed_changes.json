@@ -1484,7 +1484,7 @@
     "change_type": "value_change"
   },
   {
-    "champion": "Kha\u2019Zix",
+    "champion": "Kha'Zix",
     "ability": "Q - Taste Their Fear",
     "patch": "10.14",
     "stat": "ISOLATED TARGET BONUS DAMAGE",
@@ -2150,7 +2150,7 @@
     "change_type": "value_change"
   },
   {
-    "champion": "Kha\u2019Zix",
+    "champion": "Kha'Zix",
     "ability": "Q - Taste Their Fear",
     "patch": "10.16",
     "stat": "ISOLATED TARGET BONUS DAMAGE",
@@ -11676,7 +11676,7 @@
     "change_type": "value_change"
   },
   {
-    "champion": "Kha\u2019Zix",
+    "champion": "Kha'Zix",
     "ability": "Q - Taste Their Fear",
     "patch": "11.22",
     "stat": "Total Damage",
@@ -11685,7 +11685,7 @@
     "change_type": "value_change"
   },
   {
-    "champion": "Kha\u2019Zix",
+    "champion": "Kha'Zix",
     "ability": "Q - Taste Their Fear",
     "patch": "11.22",
     "stat": "Isolated Damage",
@@ -25727,7 +25727,7 @@
     "change_type": "value_change"
   },
   {
-    "champion": "Kha\u2019Zix",
+    "champion": "Kha'Zix",
     "ability": "Base Stats",
     "patch": "13.12",
     "stat": "Base Attack Damage",
@@ -27966,7 +27966,7 @@
     "change_type": "note"
   },
   {
-    "champion": "Kha\u2019Zix",
+    "champion": "Kha'Zix",
     "ability": "Q - Taste Their Fear",
     "patch": "13.17",
     "stat": "Physical Damage",
@@ -33961,7 +33961,7 @@
     "change_type": "value_change"
   },
   {
-    "champion": "Kha\u2019Zix",
+    "champion": "Kha'Zix",
     "ability": "Q - Taste Their Fear",
     "patch": "13.7",
     "stat": "Isolation Range",
@@ -33970,7 +33970,7 @@
     "change_type": "value_change"
   },
   {
-    "champion": "Kha\u2019Zix",
+    "champion": "Kha'Zix",
     "ability": "W - Void Spike",
     "patch": "13.7",
     "stat": "Evolved Slow",
@@ -33979,7 +33979,7 @@
     "change_type": "value_change"
   },
   {
-    "champion": "Kha\u2019Zix",
+    "champion": "Kha'Zix",
     "ability": "W - Void Spike",
     "patch": "13.7",
     "stat": "Evolved Slow Against Isolated Targets",
@@ -33988,7 +33988,7 @@
     "change_type": "value_change"
   },
   {
-    "champion": "Kha\u2019Zix",
+    "champion": "Kha'Zix",
     "ability": "R - Void Assault",
     "patch": "13.7",
     "stat": "Buff Duration",
@@ -34320,7 +34320,7 @@
     "change_type": "value_change"
   },
   {
-    "champion": "Kha\u2019Zix",
+    "champion": "Kha'Zix",
     "ability": "Q - Taste Their Fear",
     "patch": "13.8",
     "stat": "Physical Damage",
@@ -35440,7 +35440,7 @@
     "change_type": "value_change"
   },
   {
-    "champion": "Kha\u2019Zix",
+    "champion": "Kha'Zix",
     "ability": "Q - Taste Their Fear",
     "patch": "14.11",
     "stat": "Physical Damage",
@@ -41225,7 +41225,7 @@
     "change_type": "value_change"
   },
   {
-    "champion": "Kha\u2019Zix",
+    "champion": "Kha'Zix",
     "ability": "Base Stats",
     "patch": "14.23",
     "stat": "Base Armor",
@@ -41234,7 +41234,7 @@
     "change_type": "value_change"
   },
   {
-    "champion": "Kha\u2019Zix",
+    "champion": "Kha'Zix",
     "ability": "W - Void Spike",
     "patch": "14.23",
     "stat": "Evolved W Slow to Isolated Targets",
@@ -52912,7 +52912,7 @@
     "change_type": "value_change"
   },
   {
-    "champion": "Kha\u2019Zix",
+    "champion": "Kha'Zix",
     "ability": "W - Void Spike",
     "patch": "25.24",
     "stat": "Base Damage",
@@ -56737,6 +56737,330 @@
   },
   {
     "champion": "Aatrox",
+    "ability": "W - Infernal Chains",
+    "patch": "26.19",
+    "stat": "Cooldown",
+    "old_value": "20 / 18 / 16 / 14 / 12 seconds",
+    "new_value": "18 / 16.5 / 15 / 13.5 / 12 seconds",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Aatrox",
+    "ability": "E - Umbral Dash",
+    "patch": "26.19",
+    "stat": "Health Heal Ratio",
+    "old_value": "1.1% per 100 bonus health",
+    "new_value": "1.3% per 100 bonus health",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Aphelios",
+    "ability": "Calibrum",
+    "patch": "26.19",
+    "stat": "Moonshot Damage",
+    "old_value": "70 - 160 (+42 - 60% bonus AD) (+100% AP)",
+    "new_value": "80 - 170 (+42 - 60% bonus AD) (+100% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Aphelios",
+    "ability": "Severum",
+    "patch": "26.19",
+    "stat": "Healing",
+    "old_value": "2 - 7.1%, increased to 5 - 17.75%",
+    "new_value": "2 - 8%, increased to 5 - 20%",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Aphelios",
+    "ability": "Gravitum",
+    "patch": "26.19",
+    "stat": "Slow",
+    "old_value": "30% for 2.5 seconds, decaying to 10% after 0.7 seconds",
+    "new_value": "30% for 2.5 seconds, decaying to 15% after 0.7 seconds",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Aphelios",
+    "ability": "Infernum",
+    "patch": "26.19",
+    "stat": "Duskwave Cooldown",
+    "old_value": "9 / 8.25 / 7.5 / 6.75 / 6 seconds",
+    "new_value": "8 / 7.25 / 6.5 / 5.75 / 5 seconds",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Aphelios",
+    "ability": "Crescendum",
+    "patch": "26.19",
+    "stat": "Mini-Crescendum Damage",
+    "old_value": "15% AD, decreasing by 1.5% AD to a minimum of 5% AD for the 8th+ chakram",
+    "new_value": "16% AD, decreasing by 1.5% AD to a minimum of 5% AD for the 9th+ chakram",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Aurora",
+    "ability": "E - The Weirding",
+    "patch": "26.19",
+    "stat": "Base Damage",
+    "old_value": "70 / 110 / 150 / 190 / 230",
+    "new_value": "80 / 120 / 160 / 200 / 240",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Aurora",
+    "ability": "R - Between Worlds",
+    "patch": "26.19",
+    "stat": "Rift Duration",
+    "old_value": "1.75 / 2.5 / 3.25 seconds",
+    "new_value": "2.25 / 2.75 / 3.25 seconds",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Draven",
+    "ability": "Base Stats",
+    "patch": "26.19",
+    "stat": "Attack Damage",
+    "old_value": "62",
+    "new_value": "64",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Elise",
+    "ability": "Passive - Spider Queen",
+    "patch": "26.19",
+    "stat": "Passive Magic Damage On-Hit",
+    "old_value": "12 / 22 / 32 / 42",
+    "new_value": "14 / 24 / 34 / 44",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Elise",
+    "ability": "W - Skittering Frenzy",
+    "patch": "26.19",
+    "stat": "Bonus Attack Speed",
+    "old_value": "60 / 75 / 90 / 105 / 120%",
+    "new_value": "70 / 85 / 100 / 115 / 130%",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Fiora",
+    "ability": "Base Stats",
+    "patch": "26.19",
+    "stat": "Health Growth",
+    "old_value": "99",
+    "new_value": "105",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Fiora",
+    "ability": "R - Grand Challenge",
+    "patch": "26.19",
+    "stat": "Heal Range",
+    "old_value": "550",
+    "new_value": "600",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Fiora",
+    "ability": "R - Grand Challenge",
+    "patch": "26.19",
+    "stat": "Heal Per Tick",
+    "old_value": "18.75 / 25 / 31.25 (+15% bonus AD)",
+    "new_value": "20 / 26.25 / 32.5 (+17.5% bonus AD)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Fiora",
+    "ability": "R - Grand Challenge",
+    "patch": "26.19",
+    "stat": "Maximum Heal",
+    "old_value": "375 / 500 / 625 (+300% bonus AD)",
+    "new_value": "400 / 525 / 650 (+350% bonus AD)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Kha'Zix",
+    "ability": "Passive - Unseen Threat",
+    "patch": "26.19",
+    "stat": "Damage",
+    "old_value": "17 - 136 (+50% bonus AD)",
+    "new_value": "22 - 141 (+50% bonus AD)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Kha'Zix",
+    "ability": "W - Void Spike",
+    "patch": "26.19",
+    "stat": "Evolved Slow Duration",
+    "old_value": "2 seconds",
+    "new_value": "2.25 seconds",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Kha'Zix",
+    "ability": "E - Leap",
+    "patch": "26.19",
+    "stat": "Evolved Range Bonus",
+    "old_value": "+200",
+    "new_value": "+300",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Lillia",
+    "ability": "Base Stats",
+    "patch": "26.19",
+    "stat": "Armor",
+    "old_value": "22",
+    "new_value": "24",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Lillia",
+    "ability": "R - Lilting Lullaby",
+    "patch": "26.19",
+    "stat": "Sleep Duration",
+    "old_value": "2 seconds",
+    "new_value": "2.5 seconds",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Lucian",
+    "ability": "Passive - Vigilance",
+    "patch": "26.19",
+    "stat": "Empowered On-Hit Damage",
+    "old_value": "15 (+20% AD)",
+    "new_value": "5 (+15% AD)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Lucian",
+    "ability": "Q - Piercing Light",
+    "patch": "26.19",
+    "stat": "Base Damage",
+    "old_value": "80 / 115 / 150 / 185 / 220 (+100% bonus AD)",
+    "new_value": "90 / 130 / 170 / 210 / 250 (+100% bonus AD)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Master Yi",
+    "ability": "Q - Alpha Strike",
+    "patch": "26.19",
+    "stat": "Cooldown Refund on Hit",
+    "old_value": "-1 second, scaling down with Ability Haste",
+    "new_value": "1 second",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Nasus",
+    "ability": "Q - Siphoning Strike",
+    "patch": "26.19",
+    "stat": "Bonus Damage",
+    "old_value": "40 / 60 / 80 / 100 / 120",
+    "new_value": "30 / 50 / 70 / 90 / 110",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Nocturne",
+    "ability": "R - Paranoia",
+    "patch": "26.19",
+    "stat": "Cooldown",
+    "old_value": "140 / 115 / 90 seconds",
+    "new_value": "160 / 130 / 100 seconds",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Poppy",
+    "ability": "Q - Hammer Shock",
+    "patch": "26.19",
+    "stat": "Minion/Monster Maximum Health Cap",
+    "old_value": "85 / 120 / 155 / 190 / 225",
+    "new_value": "70 / 105 / 140 / 175 / 210",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Rumble",
+    "ability": "Passive - Junkyard Titan",
+    "patch": "26.19",
+    "stat": "Overheat Attack Speed",
+    "old_value": "50 - 130%",
+    "new_value": "30 - 100%",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Rumble",
+    "ability": "Passive - Junkyard Titan",
+    "patch": "26.19",
+    "stat": "Monster Cap",
+    "old_value": "65 - 150",
+    "new_value": "90 - 175",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Ryze",
+    "ability": "Base Stats",
+    "patch": "26.19",
+    "stat": "Armor Growth",
+    "old_value": "4.2",
+    "new_value": "4.7",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Ryze",
+    "ability": "Q - Overload",
+    "patch": "26.19",
+    "stat": "Flux Bonus Damage",
+    "old_value": "25 / 50 / 75 / 100% increased damage",
+    "new_value": "15 / 40 / 65 / 90% increased damage",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Ryze",
+    "ability": "E - Spell Flux",
+    "patch": "26.19",
+    "stat": "Mana Cost",
+    "old_value": "35 / 45 / 55 / 65 / 75",
+    "new_value": "40 / 50 / 60 / 70 / 80",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Vi",
+    "ability": "Base Stats",
+    "patch": "26.19",
+    "stat": "Attack Damage",
+    "old_value": "63 + 3.5/Level",
+    "new_value": "61 + 3.9/Level",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Vi",
+    "ability": "Passive - Blast Shield",
+    "patch": "26.19",
+    "stat": "Shield",
+    "old_value": "12% Maximum Health",
+    "new_value": "10% Maximum Health",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Volibear",
+    "ability": "Passive - The Relentless Storm",
+    "patch": "26.19",
+    "stat": "Attack Speed per Stack",
+    "old_value": "5% (+3% per 100 AP)",
+    "new_value": "5% (+4% per 100 AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Volibear",
+    "ability": "Passive - The Relentless Storm",
+    "patch": "26.19",
+    "stat": "Lightning On-Hit Damage",
+    "old_value": "11 - 60 (Levels 1-18) (+45% AP)",
+    "new_value": "11 - 60 (Levels 1-18) (+45% AP) (+20% bonus AD)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Aatrox",
     "ability": "Passive - Deathbringer Stance",
     "patch": "26.2",
     "stat": "Bonus Magic Damage based on Target Max Health",
@@ -58287,7 +58611,7 @@
     "change_type": "value_change"
   },
   {
-    "champion": "Kha\u2019Zix",
+    "champion": "Kha'Zix",
     "ability": "Base Stats",
     "patch": "26.5",
     "stat": "Move Speed",
@@ -58296,7 +58620,7 @@
     "change_type": "value_change"
   },
   {
-    "champion": "Kha\u2019Zix",
+    "champion": "Kha'Zix",
     "ability": "Q - Taste Their Fear",
     "patch": "26.5",
     "stat": "Bonus AD",
