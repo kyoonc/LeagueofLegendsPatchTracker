@@ -57303,6 +57303,276 @@
     "change_type": "value_change"
   },
   {
+    "champion": "Ambessa",
+    "ability": "Passive - Drakehound's Step",
+    "patch": "26.20",
+    "stat": "Damage",
+    "old_value": "5 - 30 (+25% bonus AD)",
+    "new_value": "5 - 25 (+20% bonus AD)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Ashe",
+    "ability": "Base Stats",
+    "patch": "26.20",
+    "stat": "Attack Damage per Level",
+    "old_value": "3.5",
+    "new_value": "3",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Cassiopeia",
+    "ability": "Base Stats",
+    "patch": "26.20",
+    "stat": "Base Health",
+    "old_value": "630",
+    "new_value": "610",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Cassiopeia",
+    "ability": "Base Stats",
+    "patch": "26.20",
+    "stat": "Base Mana",
+    "old_value": "480",
+    "new_value": "450",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Diana",
+    "ability": "W - Pale Cascade",
+    "patch": "26.20",
+    "stat": "Shield Bonus Health Ratio",
+    "old_value": "11%",
+    "new_value": "14%",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Kennen",
+    "ability": "E - Lightning Rush",
+    "patch": "26.20",
+    "stat": "Bonus Attack Speed",
+    "old_value": "40 / 50 / 60 / 70 / 80%",
+    "new_value": "50 / 60 / 70 / 80 / 90%",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Kindred",
+    "ability": "W - Wolf's Frenzy",
+    "patch": "26.20",
+    "stat": "Monster Mod",
+    "old_value": "150%",
+    "new_value": "165%",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Kindred",
+    "ability": "E - Mounting Dread",
+    "patch": "26.20",
+    "stat": "Slow Duration",
+    "old_value": "1s",
+    "new_value": "1.5s",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Kindred",
+    "ability": "E - Mounting Dread",
+    "patch": "26.20",
+    "stat": "Small Monster Targeting",
+    "old_value": "Enabled",
+    "new_value": "Removed",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "K'Sante",
+    "ability": "W - Path Maker",
+    "patch": "26.20",
+    "stat": "Mana Cost",
+    "old_value": "40 / 45 / 50 / 55 / 60",
+    "new_value": "45 / 50 / 55 / 60 / 65",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "K'Sante",
+    "ability": "W - Path Maker",
+    "patch": "26.20",
+    "stat": "W Base/All-Out Damage Reduction",
+    "old_value": "30 / 75%",
+    "new_value": "25 / 70%",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Lillia",
+    "ability": "R - Lilting Lullaby",
+    "patch": "26.20",
+    "stat": "Duration",
+    "old_value": "2.5s",
+    "new_value": "2.5 / 2.75 / 3s",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Lucian",
+    "ability": "Base Stats",
+    "patch": "26.20",
+    "stat": "Attack Damage",
+    "old_value": "60 + 2.5/Level",
+    "new_value": "60 + 2.9/Level",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Mordekaiser",
+    "ability": "Q - Obliterate",
+    "patch": "26.20",
+    "stat": "Scaling Level 10-20",
+    "old_value": "(+5/lvl)",
+    "new_value": "(+7/lvl)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Mordekaiser",
+    "ability": "R - Realm of Death",
+    "patch": "26.20",
+    "stat": "Cooldown",
+    "old_value": "140 / 120 / 100s",
+    "new_value": "120 / 110 / 100s",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Neeko",
+    "ability": "E - Tangle-Barbs",
+    "patch": "26.20",
+    "stat": "Base Damage",
+    "old_value": "70 / 105 / 140 / 175 / 210 (+65% AP)",
+    "new_value": "80 / 115 / 150 / 185 / 220 (+65% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Neeko",
+    "ability": "E - Tangle-Barbs",
+    "patch": "26.20",
+    "stat": "Empowered Root Duration",
+    "old_value": "1.8 / 2.1 / 2.4 / 2.7 / 3s",
+    "new_value": "2 / 2.25 / 2.5 / 2.75 / 3s",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Smolder",
+    "ability": "Passive - Dragon Practice",
+    "patch": "26.20",
+    "stat": "Super Scorcher Bonus Magic Damage",
+    "old_value": "25 - 55% (+0-9% with IE) of Dragon Practice Stacks, scaling with Crit Chance",
+    "new_value": "25 - 60% (+0-10.5% with IE) of Dragon Practice Stacks, scaling with Crit Chance",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Smolder",
+    "ability": "Passive - Dragon Practice",
+    "patch": "26.20",
+    "stat": "Flap Flap Flap Bonus Magic Damage",
+    "old_value": "8 - 12.8% (+0-1.44% with IE) of Dragon Practice Stacks, scaling with Crit Chance",
+    "new_value": "8 - 14% (+0-1.8% with IE) of Dragon Practice Stacks, scaling with Crit Chance",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Smolder",
+    "ability": "R - Mmooommmm!",
+    "patch": "26.20",
+    "stat": "Self Heal",
+    "old_value": "100 / 135 / 170 (+50% bonus AD) (+75% AP)",
+    "new_value": "100 / 175 / 250 (+75% bonus AD) (+75% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Swain",
+    "ability": "Base Stats",
+    "patch": "26.20",
+    "stat": "Base Magic Resistance",
+    "old_value": "31",
+    "new_value": "34",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Swain",
+    "ability": "Base Stats",
+    "patch": "26.20",
+    "stat": "Base Armor",
+    "old_value": "25",
+    "new_value": "23",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Swain",
+    "ability": "W - Vision of Empire",
+    "patch": "26.20",
+    "stat": "Damage",
+    "old_value": "70 / 105 / 140 / 175 / 210 (+60%)",
+    "new_value": "70 / 115 / 160 / 205 / 250 (+60%)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Swain",
+    "ability": "W - Vision of Empire",
+    "patch": "26.20",
+    "stat": "Cooldown",
+    "old_value": "22 / 21 / 20 / 19 / 18s",
+    "new_value": "20 / 19 / 18 / 17 / 16s",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Tahm Kench",
+    "ability": "Q - Tongue Lash",
+    "patch": "26.20",
+    "stat": "Base Healing",
+    "old_value": "10 / 13.75 / 17.5 / 21.25 / 25",
+    "new_value": "10 / 20 / 30 / 40 / 50",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Vayne",
+    "ability": "Base Stats",
+    "patch": "26.20",
+    "stat": "Health per 5",
+    "old_value": "4 + .5/Level",
+    "new_value": "5.5 +.4/Level",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Vayne",
+    "ability": "Q - Tumble",
+    "patch": "26.20",
+    "stat": "Mana Cost",
+    "old_value": "46 / 42 / 38 / 34 / 30",
+    "new_value": "30",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Yunara",
+    "ability": "Q - Cultivation of Spirit",
+    "patch": "26.20",
+    "stat": "Passive On Hit Damage",
+    "old_value": "5 / 10 / 15 / 20 / 25 (+20% AP)",
+    "new_value": "3 / 8 / 13 / 18 / 23 (+20% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Yunara",
+    "ability": "Q - Cultivation of Spirit",
+    "patch": "26.20",
+    "stat": "Active On Hit Damage",
+    "old_value": "5 / 10 / 15 / 20 / 25 (+20% AP)",
+    "new_value": "3 / 8 / 13 / 18 / 23 (+20% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Yunara",
+    "ability": "W - Arc of Judgement",
+    "patch": "26.20",
+    "stat": "Slow Stacking",
+    "old_value": "Stacks with other slows",
+    "new_value": "No longer stacks with other slows",
+    "change_type": "value_change"
+  },
+  {
     "champion": "Ahri",
     "ability": "W - Fox-Fire",
     "patch": "26.3",
