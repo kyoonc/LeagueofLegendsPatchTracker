@@ -11097,7 +11097,7 @@
     "change_type": "value_change"
   },
   {
-    "champion": "Nunu and Willump",
+    "champion": "Nunu & Willump",
     "ability": "Base Stats",
     "patch": "11.2",
     "stat": "MOVEMENT SPEED",
@@ -11106,7 +11106,7 @@
     "change_type": "value_change"
   },
   {
-    "champion": "Nunu and Willump",
+    "champion": "Nunu & Willump",
     "ability": "Base Stats",
     "patch": "11.2",
     "stat": "HEALTH",
@@ -14620,7 +14620,7 @@
     "change_type": "value_change"
   },
   {
-    "champion": "Nunu and Willump",
+    "champion": "Nunu & Willump",
     "ability": "Q - Consume",
     "patch": "12.11",
     "stat": "Healing against non-Champions",
@@ -14629,7 +14629,7 @@
     "change_type": "value_change"
   },
   {
-    "champion": "Nunu and Willump",
+    "champion": "Nunu & Willump",
     "ability": "Q - Consume",
     "patch": "12.11",
     "stat": "Healing against Champions",
@@ -14638,7 +14638,7 @@
     "change_type": "value_change"
   },
   {
-    "champion": "Nunu and Willump",
+    "champion": "Nunu & Willump",
     "ability": "E - Snowball Barrage",
     "patch": "12.11",
     "stat": "Cooldown",
@@ -20251,7 +20251,7 @@
     "change_type": "value_change"
   },
   {
-    "champion": "Nunu and Willump",
+    "champion": "Nunu & Willump",
     "ability": "Q - Consume",
     "patch": "12.22",
     "stat": "True Damage to Non-Champions",
@@ -21724,7 +21724,7 @@
     "change_type": "note"
   },
   {
-    "champion": "Nunu and Willump",
+    "champion": "Nunu & Willump",
     "ability": "Base Stats",
     "patch": "12.4",
     "stat": "Health Growth",
@@ -21733,7 +21733,7 @@
     "change_type": "value_change"
   },
   {
-    "champion": "Nunu and Willump",
+    "champion": "Nunu & Willump",
     "ability": "Base Stats",
     "patch": "12.4",
     "stat": "Health at Level 18",
@@ -21742,7 +21742,7 @@
     "change_type": "value_change"
   },
   {
-    "champion": "Nunu and Willump",
+    "champion": "Nunu & Willump",
     "ability": "Q - Consume",
     "patch": "12.4",
     "stat": "Healing From Champions",
@@ -28788,7 +28788,7 @@
     "change_type": "value_change"
   },
   {
-    "champion": "Nunu and Willump",
+    "champion": "Nunu & Willump",
     "ability": "E - Snowball Barrage",
     "patch": "13.19",
     "stat": "Magic Damage per Hit",
@@ -28797,7 +28797,7 @@
     "change_type": "value_change"
   },
   {
-    "champion": "Nunu and Willump",
+    "champion": "Nunu & Willump",
     "ability": "E - Snowball Barrage",
     "patch": "13.19",
     "stat": "Maximum Total Magic Damage",
@@ -57177,7 +57177,7 @@
     "change_type": "value_change"
   },
   {
-    "champion": "Nunu and Willump",
+    "champion": "Nunu & Willump",
     "ability": "Q - Consume",
     "patch": "26.2",
     "stat": "Cooldown",
@@ -57186,7 +57186,7 @@
     "change_type": "value_change"
   },
   {
-    "champion": "Nunu and Willump",
+    "champion": "Nunu & Willump",
     "ability": "W - Biggest Snowball Ever!",
     "patch": "26.2",
     "stat": "Maximum Damage",
@@ -57195,7 +57195,7 @@
     "change_type": "value_change"
   },
   {
-    "champion": "Nunu and Willump",
+    "champion": "Nunu & Willump",
     "ability": "E - Snowball Barrage",
     "patch": "26.2",
     "stat": "Damage per Hit",
@@ -57570,6 +57570,502 @@
     "stat": "Slow Stacking",
     "old_value": "Stacks with other slows",
     "new_value": "No longer stacks with other slows",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Azir",
+    "ability": "Base Stats",
+    "patch": "26.21",
+    "stat": "Mana Growth",
+    "old_value": "40/Level",
+    "new_value": "50/Level",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Caitlyn",
+    "ability": "Passive - Headshot",
+    "patch": "26.21",
+    "stat": "Damage",
+    "old_value": "60 - 100% AD (+1% AD per 1% per Crit Chance) (+1% AD per 1% Bonus Crit Damage)",
+    "new_value": "60 - 80% AD (+0.8% AD per 1% per Crit Chance) (+0.8% AD per 1% Bonus Crit Damage)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Caitlyn",
+    "ability": "Q - Piltover Peacemaker",
+    "patch": "26.21",
+    "stat": "Base Damage",
+    "old_value": "50 / 90 / 130 / 170 / 210",
+    "new_value": "50 / 95 / 140 / 185 / 230",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Darius",
+    "ability": "Q - Decimate",
+    "patch": "26.21",
+    "stat": "Cooldown",
+    "old_value": "9 / 8 / 7 / 6 / 5s",
+    "new_value": "9 / 8 / 7 / 6 / 4s",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Jinx",
+    "ability": "Base Stats",
+    "patch": "26.21",
+    "stat": "Attack Damage",
+    "old_value": "59 + 3.25/Level",
+    "new_value": "59 + 3/Level",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Jinx",
+    "ability": "Base Stats",
+    "patch": "26.21",
+    "stat": "Health",
+    "old_value": "630 + 105/Level",
+    "new_value": "610 + 105/Level",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Lee Sin",
+    "ability": "W - Safeguard",
+    "patch": "26.21",
+    "stat": "Cooldown",
+    "old_value": "7s",
+    "new_value": "8s",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Lee Sin",
+    "ability": "E - Tempest",
+    "patch": "26.21",
+    "effect_name": "Bugfix",
+    "description": "No longer reveals invisible enemies if they stealth after being hit by Tempest.",
+    "change_type": "note"
+  },
+  {
+    "champion": "Lee Sin",
+    "ability": "R - Dragon's Rage",
+    "patch": "26.21",
+    "stat": "Kick Damage",
+    "old_value": "175 / 400 / 625 (+200% bonus AD)",
+    "new_value": "150 / 350 / 550 (+200% bonus AD)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Lee Sin",
+    "ability": "R - Dragon's Rage",
+    "patch": "26.21",
+    "stat": "Collision Damage",
+    "old_value": "175 / 400 / 625 (+200% bonus AD) (+12 / 15 / 18% Kicked Champion's Health)",
+    "new_value": "150 / 350 / 550 (+200% bonus AD) (+12 / 15 / 18% Kicked Champion's Health)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Locke",
+    "ability": "Q - Ritual Nails",
+    "patch": "26.21",
+    "stat": "Unused Charge Refund",
+    "old_value": "20 - 35% mana and cooldown refund",
+    "new_value": "10 - 40% mana and cooldown refund",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Locke",
+    "ability": "Base Stats",
+    "patch": "26.21",
+    "stat": "Mana Growth",
+    "old_value": "70",
+    "new_value": "60",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Locke",
+    "ability": "W - Soul Ignition",
+    "patch": "26.21",
+    "stat": "Mana Cost",
+    "old_value": "50 / 55 / 60 / 65 / 70",
+    "new_value": "60 / 65 / 70 / 75 / 80",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Locke",
+    "ability": "W - Soul Ignition",
+    "patch": "26.21",
+    "stat": "Grey Health Store Based on Current Health",
+    "old_value": "40 - 200 (both level based)",
+    "new_value": "20 - 200",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Locke",
+    "ability": "W - Soul Ignition",
+    "patch": "26.21",
+    "stat": "Current Health Store",
+    "old_value": "150 - 450 (both level based)",
+    "new_value": "100 - 500 (+60% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Locke",
+    "ability": "E - Ashen Pursuit",
+    "patch": "26.21",
+    "stat": "Blink Damage",
+    "old_value": "40 / 50 / 60 / 70 / 80 (+40% AP)",
+    "new_value": "40 / 55 / 70 / 85 / 100 (+50% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Miss Fortune",
+    "ability": "E - Make It Rain",
+    "patch": "26.21",
+    "stat": "Damage",
+    "old_value": "70 / 100 / 130 / 160 / 190 (+120% AP)",
+    "new_value": "90 / 120 / 150 / 180 / 210 (+120% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Miss Fortune",
+    "ability": "R - Bullet Time",
+    "patch": "26.21",
+    "stat": "Critical Strike Damage",
+    "old_value": "130% (+0.3% per 1% Bonus Crit Damage)",
+    "new_value": "145% (+0.45% per 1% Bonus Crit Damage)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Nidalee",
+    "ability": "W - Pounce",
+    "patch": "26.21",
+    "stat": "Damage",
+    "old_value": "55 / 88.75 / 122.5 / 156.25 / 190 (+50% bonus AD) (+30% AP)",
+    "new_value": "50 / 80 / 110 / 140 / 170 (+50% bonus AD) (+30% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Nidalee",
+    "ability": "E - Primal Surge",
+    "patch": "26.21",
+    "stat": "Attack Speed",
+    "old_value": "30 / 40 / 50 / 60 / 70%",
+    "new_value": "20 / 30 / 40 / 50 / 60%",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Nunu & Willump",
+    "ability": "R - Absolute Zero",
+    "patch": "26.21",
+    "stat": "Maximum Damage",
+    "old_value": "625 / 925 / 1275 (+300% AP)",
+    "new_value": "750 / 1100 / 1450 (+300% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Orianna",
+    "ability": "Q - Command: Attack",
+    "patch": "26.21",
+    "stat": "Damage",
+    "old_value": "60 / 90 / 120 / 150 / 180 (+55% AP)",
+    "new_value": "60 / 90 / 120 / 150 / 180 (+60% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Orianna",
+    "ability": "W - Command: Dissonance",
+    "patch": "26.21",
+    "stat": "Damage",
+    "old_value": "70 / 110 / 150 / 190 / 230 (+80% AP)",
+    "new_value": "70 / 110 / 150 / 190 / 230 (+85% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Qiyana",
+    "ability": "Q - Elemental Wrath / Edge of Ixtal",
+    "patch": "26.21",
+    "stat": "Damage",
+    "old_value": "80 / 110 / 140 / 170 / 200 (+90% bonus AD)",
+    "new_value": "70 / 100 / 130 / 160 / 190 (+90% bonus AD)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Rammus",
+    "ability": "W - Defensive Ball Curl",
+    "patch": "26.21",
+    "stat": "Bonus Armor",
+    "old_value": "27 / 32 / 37 / 42 / 47 (+30 - 60% Armor)",
+    "new_value": "25 / 30 / 35 / 40 / 45 (+30 - 50% Armor)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Rammus",
+    "ability": "W - Defensive Ball Curl",
+    "patch": "26.21",
+    "stat": "Bonus Magic Resistance",
+    "old_value": "20 / 25 / 30 / 35 / 40 (+30 - 60% Magic Resistance)",
+    "new_value": "20 / 25 / 30 / 35 / 40 (+30 - 50% Magic Resistance)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Ryze",
+    "ability": "Q - Overload",
+    "patch": "26.21",
+    "stat": "Flux Bonus Damage",
+    "old_value": "15% / 40% / 65% / 90% increased damage",
+    "new_value": "10% / 40% / 70% / 100% increased damage",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Ryze",
+    "ability": "Q - Overload",
+    "patch": "26.21",
+    "stat": "Bonus Move Speed",
+    "old_value": "28% / 32% / 36% / 40% / 44%",
+    "new_value": "30% / 35% / 40% / 45% / 50%",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Ryze",
+    "ability": "W - Rune Prison",
+    "patch": "26.21",
+    "stat": "Damage",
+    "old_value": "60 / 90 / 120 / 150 / 180 (+60% AP) (+3% bonus mana)",
+    "new_value": "60 / 90 / 120 / 150 / 180 (+70% AP) (+3% bonus mana)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Sion",
+    "ability": "Base Stats",
+    "patch": "26.21",
+    "stat": "Health",
+    "old_value": "655 + 87/Level",
+    "new_value": "655 + 95/Level",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Sion",
+    "ability": "R - Unstoppable Onslaught",
+    "patch": "26.21",
+    "stat": "Damage Increase over the First 3s of Channeling",
+    "old_value": "+0 - 166.67% Base Damage, 0 - 100% Ratio Damage",
+    "new_value": "+0 - 200%",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Sion",
+    "ability": "R - Unstoppable Onslaught",
+    "patch": "26.21",
+    "effect_name": "Bugfix",
+    "description": "Tooltip now displays the correct minimum and maximum bonus AD ratios (40-120%). It displayed an incorrect Bonus AD Scaling (60%-120%). It was never actually changed in patch 25.16 beyond the tooltip.",
+    "change_type": "note"
+  },
+  {
+    "champion": "Taliyah",
+    "ability": "E - Unraveled Earth",
+    "patch": "26.21",
+    "stat": "Damage",
+    "old_value": "60 / 105 / 150 / 195 / 240 (+60% AP)",
+    "new_value": "70 / 115 / 160 / 205 / 250 (+70% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Taliyah",
+    "ability": "E - Unraveled Earth",
+    "patch": "26.21",
+    "stat": "Detonation Damage",
+    "old_value": "25 / 40 / 55 / 70 / 85 (+30% AP)",
+    "new_value": "30 / 45 / 60 / 75 / 90 (+30% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Taliyah",
+    "ability": "E - Unraveled Earth",
+    "patch": "26.21",
+    "effect_name": "Monster Damage",
+    "description": "Deals 225% damage to monsters.",
+    "change_type": "note"
+  },
+  {
+    "champion": "Taric",
+    "ability": "Q - Starlight\u2019s Touch",
+    "patch": "26.21",
+    "effect_name": "Cast Behavior",
+    "description": "Q casts when allies are untargetable will now successfully fire.",
+    "change_type": "note"
+  },
+  {
+    "champion": "Taric",
+    "ability": "E - Dazzle",
+    "patch": "26.21",
+    "effect_name": "Cast Behavior",
+    "description": "E casts when allies are untargetable will now successfully fire.",
+    "change_type": "note"
+  },
+  {
+    "champion": "Taric",
+    "ability": "E - Dazzle",
+    "patch": "26.21",
+    "effect_name": "Tooltip",
+    "description": "Updated to include \u201cDazzle will not cast from Vanished allies\u201d.",
+    "change_type": "note"
+  },
+  {
+    "champion": "Taric",
+    "ability": "R - Cosmic Radiance",
+    "patch": "26.21",
+    "effect_name": "Cast Behavior",
+    "description": "R casts when allies are untargetable will now successfully fire.",
+    "change_type": "note"
+  },
+  {
+    "champion": "Tristana",
+    "ability": "Q - Rapid Fire",
+    "patch": "26.21",
+    "stat": "Attack Speed",
+    "old_value": "60 / 75 / 90 / 105 / 120%",
+    "new_value": "40 / 60 / 80 / 100 / 120%",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Twisted Fate",
+    "ability": "R - Destiny",
+    "patch": "26.21",
+    "effect_name": "Reveal",
+    "description": "Now reveals untargetable units.",
+    "change_type": "note"
+  },
+  {
+    "champion": "Varus",
+    "ability": "Q - Piercing Arrow",
+    "patch": "26.21",
+    "stat": "Damage Calculation",
+    "old_value": "Max Damage scaling, 53.33 - 240 (+80% bonus AD) to 80 - 360 (+120% bonus AD)",
+    "new_value": "Min Damage scaling, 50 - 230 (+80% bonus AD) to 85 - 391 (+136% bonus AD)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Varus",
+    "ability": "Q - Piercing Arrow",
+    "patch": "26.21",
+    "stat": "Damage Increase over Channel Time",
+    "old_value": "Up to 50%",
+    "new_value": "Up to 70%",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Varus",
+    "ability": "W - Blighted Quiver",
+    "patch": "26.21",
+    "stat": "On-Hit Damage",
+    "old_value": "4 / 13 / 22 / 31 / 40 (+15% bonus AD) (+25% AP)",
+    "new_value": "4 / 10 / 16 / 22 / 28 (+20% bonus AD) (+30% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Varus",
+    "ability": "W - Blighted Quiver",
+    "patch": "26.21",
+    "stat": "Per Stack Damage",
+    "old_value": "3 - 5% (+1.3% per 100 AP) Target Maximum Health",
+    "new_value": "2.5 - 4.5% (+1.4% per 100 AP) Target Maximum Health",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Varus",
+    "ability": "W - Blighted Quiver",
+    "patch": "26.21",
+    "stat": "Active Missing Health Damage",
+    "old_value": "6 - 14%, increased by up to 50% based on Q Channel",
+    "new_value": "6 - 10%, increased by up to 70% based on Q Channel",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Varus",
+    "ability": "W - Blighted Quiver",
+    "patch": "26.21",
+    "stat": "Basic Ability Cooldown Refund",
+    "old_value": "13% per stack, increased by up to 50% based on Q Channel",
+    "new_value": "11%, increased by up to 70% based on Q Channel",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Vel'Koz",
+    "ability": "Passive - Organic Deconstruction",
+    "patch": "26.21",
+    "stat": "Damage",
+    "old_value": "35 - 180 (+60% AP)",
+    "new_value": "35 - 205 (+65% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Viktor",
+    "ability": "Base Stats",
+    "patch": "26.21",
+    "stat": "Move Speed",
+    "old_value": "335",
+    "new_value": "330",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Viktor",
+    "ability": "Q - Siphon Power",
+    "patch": "26.21",
+    "stat": "Shield",
+    "old_value": "40 - 140 (based on level) (+25% AP)",
+    "new_value": "30 - 130 (+20% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Wukong",
+    "ability": "Base Stats",
+    "patch": "26.21",
+    "stat": "Health Regeneration",
+    "old_value": "3.5 + 0.65/Level",
+    "new_value": "5.5 + 0.65/Level",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Wukong",
+    "ability": "Passive - Stone Skin",
+    "patch": "26.21",
+    "stat": "Armor per Stack",
+    "old_value": "6 - 10 (based on Champion Level)",
+    "new_value": "4.5 - 10 (based on Champion Level)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Xin Zhao",
+    "ability": "Q - Three Talon Strike",
+    "patch": "26.21",
+    "stat": "Damage per Strike",
+    "old_value": "15 / 30 / 45 / 60 / 75 (+40% bonus AD)",
+    "new_value": "15 / 30 / 45 / 60 / 75 (+45% bonus AD)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Xin Zhao",
+    "ability": "E - Audacious Charge",
+    "patch": "26.21",
+    "stat": "Attack Speed Scaling",
+    "old_value": "1% per 5% bonus Attack Speed from permanent sources",
+    "new_value": "1% per 4% bonus Attack Speed from permanent sources",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Yone",
+    "ability": "Q - Mortal Steel",
+    "patch": "26.21",
+    "stat": "Damage",
+    "old_value": "25 / 50 / 75 / 100 / 125 (+110% AD)",
+    "new_value": "25 / 50 / 75 / 100 / 125 (+105% AD)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Zyra",
+    "ability": "W - Rampant Growth",
+    "patch": "26.21",
+    "stat": "Seed Ammo Cooldown",
+    "old_value": "18 / 16 / 14 / 12 / 10s",
+    "new_value": "16 / 14.5 / 13 / 11.5 / 10s",
     "change_type": "value_change"
   },
   {
@@ -58082,7 +58578,7 @@
     "change_type": "value_change"
   },
   {
-    "champion": "Nunu and Willump",
+    "champion": "Nunu & Willump",
     "ability": "W - Biggest Snowball Ever!",
     "patch": "26.3",
     "stat": "Maximum Damage",
@@ -58091,7 +58587,7 @@
     "change_type": "value_change"
   },
   {
-    "champion": "Nunu and Willump",
+    "champion": "Nunu & Willump",
     "ability": "E - Snowball Barrage",
     "patch": "26.3",
     "stat": "Base Damage per hit",
@@ -60827,7 +61323,7 @@
     "change_type": "value_change"
   },
   {
-    "champion": "Nunu and Willump",
+    "champion": "Nunu & Willump",
     "ability": "Base Stats",
     "patch": "9.18",
     "stat": "HEALTH GROWTH",
@@ -60836,7 +61332,7 @@
     "change_type": "value_change"
   },
   {
-    "champion": "Nunu and Willump",
+    "champion": "Nunu & Willump",
     "ability": "Base Stats",
     "patch": "9.18",
     "stat": "ARMOR GROWTH",
@@ -60845,7 +61341,7 @@
     "change_type": "value_change"
   },
   {
-    "champion": "Nunu and Willump",
+    "champion": "Nunu & Willump",
     "ability": "Base Stats",
     "patch": "9.18",
     "stat": "MANA",
@@ -60854,7 +61350,7 @@
     "change_type": "value_change"
   },
   {
-    "champion": "Nunu and Willump",
+    "champion": "Nunu & Willump",
     "ability": "Base Stats",
     "patch": "9.18",
     "stat": "MANA REGEN",
@@ -60863,7 +61359,7 @@
     "change_type": "value_change"
   },
   {
-    "champion": "Nunu and Willump",
+    "champion": "Nunu & Willump",
     "ability": "E - Snowball Barrage",
     "patch": "9.18",
     "stat": "SLOW",
