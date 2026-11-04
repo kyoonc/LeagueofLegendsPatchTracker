@@ -58069,6 +58069,368 @@
     "change_type": "value_change"
   },
   {
+    "champion": "Aurelion Sol",
+    "ability": "E - Singularity",
+    "patch": "26.22",
+    "stat": "Total Magic Damage",
+    "old_value": "50 / 75 / 100 / 125 / 150 (+60% AP) over 5s",
+    "new_value": "50 / 80 / 110 / 140 / 170 (+60 / 65 / 70 / 75 / 80% AP) over 5s",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Corki",
+    "ability": "R - Missile Barrage",
+    "patch": "26.22",
+    "stat": "Damage",
+    "old_value": "90 / 170 / 250 (+85% bonus AD)",
+    "new_value": "100 / 190 / 280 (+90% bonus AD)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Kayle",
+    "ability": "Q - Radiant Blast",
+    "patch": "26.22",
+    "stat": "Cooldown",
+    "old_value": "12 / 11 / 10 / 9 / 8s",
+    "new_value": "10 / 9.5 / 9 / 8.5 / 8s",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Kayle",
+    "ability": "R - Divine Judgment",
+    "patch": "26.22",
+    "stat": "Cooldown",
+    "old_value": "160 / 120 / 80s",
+    "new_value": "140 / 110 / 80s",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Locke",
+    "ability": "Q - Ritual Nails",
+    "patch": "26.22",
+    "stat": "Stack Bonus Damage",
+    "old_value": "18 / 26 / 34 / 42 / 50",
+    "new_value": "15 / 22 / 29 / 36 / 43",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Locke",
+    "ability": "W - Soul Ignition",
+    "patch": "26.22",
+    "stat": "Duration",
+    "old_value": "6s",
+    "new_value": "5s",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Maokai",
+    "ability": "Q - Bramble Smash",
+    "patch": "26.22",
+    "stat": "Damage",
+    "old_value": "75 / 120 / 165 / 210 / 255 (+2 / 2.5 / 3 / 3.5 / 4% Target Maximum Health) (+50% AP)",
+    "new_value": "75 / 120 / 165 / 210 / 255 (+2.5 / 3 / 3.5 / 4 / 4.5% Target Maximum Health) (+50% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Mel",
+    "ability": "Base Stats",
+    "patch": "26.22",
+    "stat": "Health",
+    "old_value": "640 + 99/Level",
+    "new_value": "590 + 107/Level",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Mel",
+    "ability": "Base Stats",
+    "patch": "26.22",
+    "stat": "Mana",
+    "old_value": "480 + 28/Level",
+    "new_value": "455 + 38/Level",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Mel",
+    "ability": "Base Stats",
+    "patch": "26.22",
+    "stat": "AR",
+    "old_value": "+5.2/Level",
+    "new_value": "+5.4/Level",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Mel",
+    "ability": "Base Stats",
+    "patch": "26.22",
+    "stat": "AD",
+    "old_value": "54 + 3.3/Level",
+    "new_value": "52 + 3.3/Level",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Mel",
+    "ability": "Base Stats",
+    "patch": "26.22",
+    "stat": "AS",
+    "old_value": "2.5%/Level",
+    "new_value": "2.75%/Level",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Mel",
+    "ability": "Passive - Searing Brilliance",
+    "patch": "26.22",
+    "stat": "Bonus Damage Per Bolt",
+    "old_value": "8 - 30 (+4% AP)",
+    "new_value": "4 - 30 (+4% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Mel",
+    "ability": "Passive - Searing Brilliance",
+    "patch": "26.22",
+    "stat": "First Stack Damage Against Minions",
+    "old_value": "50% Less",
+    "new_value": "45% Less",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Mel",
+    "ability": "Q - Radiant Volley",
+    "patch": "26.22",
+    "stat": "First Hit Damage",
+    "old_value": "60 / 85 / 110 / 135 / 160 (+55% AP)",
+    "new_value": "60 (+25% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Mel",
+    "ability": "Q - Radiant Volley",
+    "patch": "26.22",
+    "stat": "Multi-Hit Damage",
+    "old_value": "5 / 7 / 9 / 11 / 13 (+5% AP)",
+    "new_value": "5 / 10 / 15 / 20 / 25 (+8% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Mel",
+    "ability": "Q - Radiant Volley",
+    "patch": "26.22",
+    "stat": "Total Damage",
+    "old_value": "85 - 277 (+80 - 100% AP)",
+    "new_value": "85 - 285 (+65 - 97% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Mel",
+    "ability": "Q - Radiant Volley",
+    "patch": "26.22",
+    "effect_name": "New - Now Refunds CD it hits an enemy champion at least once",
+    "description": "0.5s - 1.0s Refund (scaling with Champion Level)",
+    "change_type": "note"
+  },
+  {
+    "champion": "Mel",
+    "ability": "Q - Radiant Volley",
+    "patch": "26.22",
+    "stat": "Mana Cost",
+    "old_value": "70 / 75 / 80 / 85 / 90",
+    "new_value": "60 / 65 / 70 / 75 / 80",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Mel",
+    "ability": "Q - Radiant Volley",
+    "patch": "26.22",
+    "stat": "Missile Speed",
+    "old_value": "3800",
+    "new_value": "3200 (takes .047s longer to travel to max range)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Mel",
+    "ability": "W - Rebuttal - Reworked",
+    "patch": "26.22",
+    "effect_name": "Retaliation Damage",
+    "description": "35 / 40 / 45 / 50 / 55 (+10% AP), reduced to 5 / 10 / 15 / 20 / 25 (+5% AP) for subsequent hits against the same enemy, up to 7 retaliations per enemy for a total of 65 - 205 (+40% AP)",
+    "change_type": "note"
+  },
+  {
+    "champion": "Mel",
+    "ability": "W - Rebuttal - Reworked",
+    "patch": "26.22",
+    "effect_name": "Shield",
+    "description": "80 / 110 / 140 / 170 / 200 (+70% AP) for 2 seconds",
+    "change_type": "note"
+  },
+  {
+    "champion": "Mel",
+    "ability": "W - Rebuttal - Reworked",
+    "patch": "26.22",
+    "effect_name": "Move Speed",
+    "description": "10 - 30% (scaling with Champion Level) for 2 seconds",
+    "change_type": "note"
+  },
+  {
+    "champion": "Mel",
+    "ability": "W - Rebuttal - Reworked",
+    "patch": "26.22",
+    "effect_name": "Mana Cost",
+    "description": "100 / 80 / 60 / 40 / 0",
+    "change_type": "note"
+  },
+  {
+    "champion": "Mel",
+    "ability": "W - Rebuttal - Reworked",
+    "patch": "26.22",
+    "effect_name": "Cooldown",
+    "description": "30 / 28.5 / 27 / 25.5 / 24",
+    "change_type": "note"
+  },
+  {
+    "champion": "Mel",
+    "ability": "E - Solar Snare",
+    "patch": "26.22",
+    "stat": "Root Duration",
+    "old_value": "1.5 seconds",
+    "new_value": "[0.8 - 1.6] / [0.85 - 1.75] / [0.9 - 1.9] / [0.95 - 2.05] / [1.0 - 2.2] seconds, increasing with distance",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Mel",
+    "ability": "E - Solar Snare",
+    "patch": "26.22",
+    "stat": "Slow Amount",
+    "old_value": "30%",
+    "new_value": "20 / 25 / 30 / 35 / 40%",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Mel",
+    "ability": "E - Solar Snare",
+    "patch": "26.22",
+    "stat": "Mana Cost",
+    "old_value": "50 / 60 / 70 / 80 / 90",
+    "new_value": "40 / 50 / 60 / 70 / 80",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Mel",
+    "ability": "R - Golden Eclipse",
+    "patch": "26.22",
+    "stat": "Cooldown",
+    "old_value": "120 / 100 / 80 seconds",
+    "new_value": "120 / 90 / 60 seconds",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Naafiri",
+    "ability": "Q - Darkin Daggers",
+    "patch": "26.22",
+    "stat": "Heal",
+    "old_value": "45 / 60 / 75 / 90 / 105 (+40% bonus AD)",
+    "new_value": "55 / 70 / 85 / 100 / 115 (+45% bonus AD)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Naafiri",
+    "ability": "W - The Call of the Pack",
+    "patch": "26.22",
+    "stat": "Bonus Attack Damage",
+    "old_value": "20%",
+    "new_value": "22%",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Rumble",
+    "ability": "R - The Equalizer",
+    "patch": "26.22",
+    "stat": "Damage per Second",
+    "old_value": "120 / 200 / 280 (+35% AP)",
+    "new_value": "(+40% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Shen",
+    "ability": "Q - Twilight Assault",
+    "patch": "26.22",
+    "stat": "Monster Damage Modifier",
+    "old_value": "100 / 125 / 150 / 175 / 200",
+    "new_value": "120 / 140 / 160 / 180 / 200",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Smolder",
+    "ability": "W - ACHOOO!",
+    "patch": "26.22",
+    "stat": "Explosion Damage",
+    "old_value": "10 / 35 / 60 / 85 / 110 (+50% bonus AD) (+80% AP)",
+    "new_value": "25 / 50 / 75 / 100 / 125 (+50% bonus AD) (+80% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Thresh",
+    "ability": "Base Stats",
+    "patch": "26.22",
+    "stat": "Attack Damage",
+    "old_value": "56",
+    "new_value": "54",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Thresh",
+    "ability": "R - The Box",
+    "patch": "26.22",
+    "stat": "Damage",
+    "old_value": "250 / 400 / 550 (+100% AP)",
+    "new_value": "200 / 350 / 500 (+100% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Viktor",
+    "ability": "Base Stats",
+    "patch": "26.22",
+    "stat": "Health Growth",
+    "old_value": "100/Level",
+    "new_value": "105/Level",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Viktor",
+    "ability": "R - Arcane Storm",
+    "patch": "26.22",
+    "stat": "Conjure Damage",
+    "old_value": "100 / 175 / 250 (+50% AP)",
+    "new_value": "100 / 175 / 250 (+60% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Yasuo",
+    "ability": "Q - Steel Tempest",
+    "patch": "26.22",
+    "stat": "Damage",
+    "old_value": "20 / 45 / 70 / 95 / 120 (+105% total AD)",
+    "new_value": "20 / 45 / 70 / 95 / 120 (+100% total AD)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Zaahen",
+    "ability": "Q - The Darkin Glaive",
+    "patch": "26.22",
+    "effect_name": "Cooldown",
+    "description": "10 / 9 / 8 / 7 / 6s",
+    "change_type": "note"
+  },
+  {
+    "champion": "Zaahen",
+    "ability": "Q - The Darkin Glaive",
+    "patch": "26.22",
+    "stat": "8 / 7.5 / 7 / 6.5 / 6s",
+    "old_value": "",
+    "new_value": "8 / 7.5 / 7 / 6.5 / 6s",
+    "change_type": "value_change"
+  },
+  {
     "champion": "Ahri",
     "ability": "W - Fox-Fire",
     "patch": "26.3",
