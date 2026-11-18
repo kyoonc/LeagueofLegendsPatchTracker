@@ -58431,6 +58431,231 @@
     "change_type": "value_change"
   },
   {
+    "champion": "Annie",
+    "ability": "R - Summon: Tibbers",
+    "patch": "26.23",
+    "stat": "Tibbers Health",
+    "old_value": "1150 - 3500 (Scaling with Champion Level) (+50% AP)",
+    "new_value": "1275 - 4000 (Scaling with Champion Level) (+50% AP) (+150% Bonus HP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Annie",
+    "ability": "R - Summon: Tibbers",
+    "patch": "26.23",
+    "stat": "Tibbers Aura Damage per Second",
+    "old_value": "8 / 12 / 16 (+4% AP)",
+    "new_value": "10 / 15 / 20 (+4% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Annie",
+    "ability": "R - Summon: Tibbers",
+    "patch": "26.23",
+    "stat": "Tibbers Attack Damage",
+    "old_value": "30 / 45 / 60 (+10% AP)",
+    "new_value": "30 / 50 / 70 (+10% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Azir",
+    "ability": "Base Stats",
+    "patch": "26.23",
+    "stat": "Attack Range",
+    "old_value": "525",
+    "new_value": "550",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Azir",
+    "ability": "W - Arise!",
+    "patch": "26.23",
+    "stat": "On Hit / Attack Damage Ratio",
+    "old_value": "50%",
+    "new_value": "67%",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Bard",
+    "ability": "Q - Cosmic Binding",
+    "patch": "26.23",
+    "stat": "Damage",
+    "old_value": "80 / 120 / 160 / 200 / 240 (+80% AP)",
+    "new_value": "80 / 125 / 170 / 215 / 260 (+100% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Ezreal",
+    "ability": "W - Essence Flux",
+    "patch": "26.23",
+    "stat": "Damage",
+    "old_value": "80 / 135 / 190 / 245 / 300 (+100% bonus AD) (+90% AP)",
+    "new_value": "80 / 135 / 190 / 245 / 300 (+115% bonus AD) (+100% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Ezreal",
+    "ability": "R - Trueshot Barrage",
+    "patch": "26.23",
+    "stat": "Champion Damage",
+    "old_value": "350 / 550 / 750 (+100% bonus AD) (+110% AP)",
+    "new_value": "350 / 600 / 850 (+110% bonus AD) (+120% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Galio",
+    "ability": "W - Shield of Durand",
+    "patch": "26.23",
+    "stat": "Shield Amount (Also affects R)",
+    "old_value": "7.5 / 9 / 10.5 / 12 / 13.5% of his Max HP",
+    "new_value": "8 / 11 / 14 / 17 / 20% of his Max HP",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Gnar",
+    "ability": "Q - Boomerang Throw",
+    "patch": "26.23",
+    "stat": "Mini Damage",
+    "old_value": "5 / 45 / 85 / 125 / 165 (+125% AD)",
+    "new_value": "5 / 45 / 85 / 125 / 165 (+135% AD)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Gnar",
+    "ability": "Q - Boomerang Throw",
+    "patch": "26.23",
+    "stat": "Mega Damage",
+    "old_value": "45 / 90 / 135 / 180 / 225 (+140% AD)",
+    "new_value": "45 / 90 / 135 / 180 / 225 (+150% AD)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "K'Sante",
+    "ability": "W - Path Maker",
+    "patch": "26.23",
+    "stat": "Mana",
+    "old_value": "45 / 50 / 55 / 60 / 65",
+    "new_value": "45",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "K'Sante",
+    "ability": "W - Path Maker",
+    "patch": "26.23",
+    "stat": "Base Damage",
+    "old_value": "45 / 75 / 105 / 135 / 165",
+    "new_value": "45 / 85 / 125 / 165 / 205",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "K'Sante",
+    "ability": "W - Path Maker",
+    "patch": "26.23",
+    "stat": "All Out Charge Time Damage Increase",
+    "old_value": "10 / 27.5 / 45 / 62.5 / 80% damage",
+    "new_value": "10 / 26.25 / 42.5 / 58.75 / 75% damage",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "LeBlanc",
+    "ability": "Q - Sigil of Malice",
+    "patch": "26.23",
+    "stat": "Ability Power Ratio (Both Initial and Mark)",
+    "old_value": "40% AP",
+    "new_value": "35% AP",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Master Yi",
+    "ability": "Q - Alpha Strike",
+    "patch": "26.23",
+    "stat": "Damage",
+    "old_value": "20 / 40 / 60 / 80 / 100 (+70% AD)",
+    "new_value": "20 / 40 / 60 / 80 / 100 (+60% AD)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Master Yi",
+    "ability": "Q - Alpha Strike",
+    "patch": "26.23",
+    "stat": "Maximum Single Target Damage",
+    "old_value": "35 / 70 / 105 / 140 / 175 (+122.5% AD)",
+    "new_value": "35 / 70 / 105 / 140 / 175 (+105% AD). Reminder that this can also Critically Strike for bonus damage.",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Mel",
+    "ability": "Q - Radiant Barrage",
+    "patch": "26.23",
+    "stat": "Subsequent Bolt Damage",
+    "old_value": "5 / 10 / 15 / 20 / 25 (+8% AP)",
+    "new_value": "6 / 11 / 16 / 21 / 26 (+9% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Mel",
+    "ability": "Q - Radiant Barrage",
+    "patch": "26.23",
+    "stat": "Maximum Damage",
+    "old_value": "85 / 120 / 165 / 220 / 285 (+65 / 73 / 81 / 89 / 97% AP)",
+    "new_value": "90 / 126 / 172 / 228 / 294 (+70 / 79 / 88 / 97 / 106% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Mel",
+    "ability": "W - Rebuttal",
+    "patch": "26.23",
+    "stat": "Shield",
+    "old_value": "50 / 80 / 110 / 140 / 170 (+50% AP)",
+    "new_value": "50 / 90 / 130 / 170 / 210 (+50% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Mel",
+    "ability": "W - Rebuttal",
+    "patch": "26.23",
+    "stat": "Retaliation",
+    "old_value": "35 / 40 / 45 / 50 / 55 (+10% AP)",
+    "new_value": "35 / 45 / 55 / 65 / 75 (+10% AP)",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Syndra",
+    "ability": "E - Scatter the Weak",
+    "patch": "26.23",
+    "stat": "Mana Cost",
+    "old_value": "50",
+    "new_value": "60",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Syndra",
+    "ability": "E - Scatter the Weak",
+    "patch": "26.23",
+    "stat": "Cooldown",
+    "old_value": "15",
+    "new_value": "17 / 16.5 / 16 / 15.5 / 15",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Vel'Koz",
+    "ability": "R - Life Form Disintegration Ray",
+    "patch": "26.23",
+    "stat": "Total Damage",
+    "old_value": "450 / 700 / 925",
+    "new_value": "450 / 700 / 950",
+    "change_type": "value_change"
+  },
+  {
+    "champion": "Vi",
+    "ability": "E - Relentless Force",
+    "patch": "26.23",
+    "stat": "Damage",
+    "old_value": "10 / 30 / 50 / 70 / 90 (+110% AD) (+100% AP)",
+    "new_value": "10 / 35 / 60 / 85 / 110 (+110% AD) (+100% AP)",
+    "change_type": "value_change"
+  },
+  {
     "champion": "Ahri",
     "ability": "W - Fox-Fire",
     "patch": "26.3",
